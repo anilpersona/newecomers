@@ -1,0 +1,18 @@
+#! /bin/bash
+
+pipeline{
+    agent any
+
+    Enveronment{
+
+    }
+    stages{
+        stage(uplode artifact buket){
+            build.Docker
+
+        }
+        stage(dev environment){
+            build.
+        }
+    }
+}
